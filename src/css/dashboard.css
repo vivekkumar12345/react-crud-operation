@@ -1,0 +1,180 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.body-container{
+    height: 100vh;
+    width: 100%;
+    
+    
+}
+.menu-left-container{
+    float: left;
+    height: 100vh;
+    width: 20%;
+    background-color:white;
+}
+.menu-left-container a{
+    padding-left: 5%;
+    line-height: 4vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    display: block;
+    cursor: pointer;
+    transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+
+}
+.menu-left-container a:hover{
+    background-color: rgb(194, 228, 239);
+    transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+}
+
+.body-right{
+    float: right;
+    height: 100vh;
+    width: 80%;
+    justify-content: center;
+}
+.dashboard-head, .addmember-head{
+    height: 14vh;
+    width: 100%;
+    background-color: rgb(45, 44, 44);
+}
+.addmember-head{
+    height: 8vh;
+}
+.dashboard-body, .addmember-body{
+height: 80vh;
+width: 100%;
+}
+.addmember-body{
+    height: 86vh;
+    overflow-y: scroll;
+}
+
+.footer{
+    height: 6vh;
+    width: 100%;
+    background-color: rgb(45, 44, 44);
+}
+
+.dashboard-head-top{
+    height: 5vh;
+    width: 100%;
+}
+
+.search-input{
+    height: 4.5vh;
+    width: 40%;
+    border-radius: 2vh;
+    padding-left: 2%;
+    border: none;
+    background-color: rgb(100, 100, 100);
+    margin-top: 1vh;
+    color: rgb(227, 224, 224);
+    font-size: 2vh;
+}
+
+.heading-up{
+    text-align: center;
+    width: 100%;
+    line-height: 7vh;
+    color: whitesmoke;
+    font-size: 3vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.table{
+    margin-top: 2vh;
+    width: 96%;
+    font-size: 2vh;
+
+}
+.table thead tr th{
+    text-align: center;
+}
+.table thead{
+    position: sticky;
+    top: 0vh;
+}
+
+.span {
+    content: "\002B";
+    color: white;
+    font-weight: bold;
+    font-size: 4vh;
+    padding-left: 10%;
+    color: yellowgreen;
+    cursor:pointer;
+    text-decoration: none;
+  }
+  .span:hover{
+    color: lightgreen;
+  }
+  .popup-bg{
+    height: 100vh;
+    width: 80%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: +200;
+  }
+  .btnclose{
+    height: 3vh;
+    width: 3%;
+    line-height: 3.5vh !important;
+    font-size: 3vh;
+    padding: 0;
+    font-weight: 900;
+    margin-top: 1vh;
+    margin-left: 1%;
+    background: none;
+    border: none;
+    color: red;
+  }
+  .btnclose:hover{
+    color: rgb(234, 89, 40);
+  }
+  .addmemberpopup-container{
+    height: 70vh;
+    width: 80%;
+    background-color: white;
+    margin-left: 10%;
+    margin-top: 10vh;
+    border-radius: 1vh;
+  }
+  .table-addmember tr td{
+    line-height: 5vh;
+    height: 8vh;
+  }
+  .table-addmember{
+    font-size: 2vh;
+    margin-left: 8%;
+    width: 90%;
+  }
+  .form-input{
+    width: 80%;
+    height: 5vh;
+    border:.25vh solid lightgrey;
+    border-radius: 1vh;
+  }
+
+  .btn-danger, .btn-success{
+    margin-left: 27%;
+    font-size: 2vh;
+    font-weight: bold;
+    width: 40%;
+    height: 5vh;
+  }
+
+  .hone{
+    font-size: 4vh;
+    padding-top: 2vh;
+    padding-bottom:5vh;
+    text-decoration: underline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
